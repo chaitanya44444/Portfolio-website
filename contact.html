@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>3D Portfolio</title>
+</head>
+<style>
+        .containe {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input[type="text"],
+    .form-group textarea {
+      width: 100%;
+      padding: 5px;
+    }
+
+    .form-group textarea {
+      height: 100px;
+    }
+
+    .form-group button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background-color: #45a049;
+    }
+
+</style>
+
+<body>
+
+    <canvas id="bg"></canvas>
+    <div class="topnav1">
+        <a  href="/">Home</a>
+        <a href="me.html">About ME</a>
+        <a class="active"  href="contact.html">Contact Us</a>
+        <a href="other.html">Other</a>
+      </div>
+    <main>
+
+        <header>
+            <h1>chaitanya</h1>
+            <p>🚀 Welcome to my website!</p>
+        </header>
+
+
+        <blockquote>
+            <p></p>
+        </blockquote>
+<section>
+    
+        <div class="containe">
+          <h2>Contact Form</h2>
+          <form action="mailto:youremail@example.com" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Send Email</button>
+            </div>
+          </form>
+        </div>
+</section>
+        <blockquote>
+            <p>Thanks for visiting!</p>
+            <br>
+            <a style="color: #d4242d; text-decoration: none;" href="chaitanyav.dev/" target="_blank"
+                rel="noopener noreferrer"> - chaitanya</a>
+        </blockquote>
+
+
+    </main>
+
+    <script type="module" src="./index.js"></script>
+
+</body>
+
+</html>
